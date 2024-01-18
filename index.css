@@ -40,3 +40,8 @@ form {
   background-color: beige;
   border-radius: 0.5em;
 }
+
+label {
+    font-size: large;
+    font-weight: bold;
+  }
