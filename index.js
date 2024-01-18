@@ -11,6 +11,8 @@ const addItem = (event) => {
     nameCell.innerHTML = formData.get('item-name');
     amountCell.innerHTML = formData.get('item-amount');
 
+    document.getElementById("item-form").reset();
+
     event.preventDefault();
 }
 
