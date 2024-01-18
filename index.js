@@ -1,6 +1,5 @@
 const addItem = (event) => {
-    const name = document.getElementById("item-name");
-    const amount = document.getElementById("item-amount");
+    const formData = new FormData(document.getElementById('item-form'))
   
     const table = document.getElementById("item-table").getElementsByTagName('tbody')[0];
   
@@ -9,8 +8,8 @@ const addItem = (event) => {
     let nameCell = newRow.insertCell(0);
     let amountCell = newRow.insertCell(1);
   
-    nameCell.innerHTML = name.value;
-    amountCell.innerHTML = amount.value;
+    nameCell.innerHTML = formData.get('item-name');
+    amountCell.innerHTML = formData.get('item-amount');
 
     event.preventDefault();
 }
