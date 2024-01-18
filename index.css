@@ -92,3 +92,13 @@ td {
   padding-left: 1em;
   padding-right: 1em;
 }
+
+@media screen and (max-width: 480px) {
+  form {
+    display: block;
+  }
+
+  button {
+    margin-top: 1em;
+  }
+}
