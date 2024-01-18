@@ -60,3 +60,11 @@ button {
   padding: none;
   margin: 0.5em;
 }
+
+h2 {
+  text-align: center;
+  background-color: beige;
+  border-radius: 0.5em;
+  width: 10em;
+  margin: 0 auto;
+}
