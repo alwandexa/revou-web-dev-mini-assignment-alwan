@@ -76,6 +76,8 @@ table {
   margin: 0 auto;
   background-color: beige;
   border-radius: 0.5em;
+  min-width: 20em;
+  text-align: center;
 }
 
 thead {
@@ -107,6 +109,5 @@ td {
 
   table, form {
     width: 100%;
-    text-align: center;
   }
 }
