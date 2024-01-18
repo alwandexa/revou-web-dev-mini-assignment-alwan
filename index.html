@@ -8,16 +8,21 @@
   </head>
   <body>
     <header>
-      <h1>Keranjang Belanja</h1>
+      <h1>Jamie's Store</h1>
     </header>
     <main>
       <section>
+        <h2>Orders</h2>
         <form action="" id="item-form">
-          <label for="item-name">Nama Item</label>
-          <input type="text" name="item-name" id="item-name" required/>
-          <label for="item-amount">Jumlah Item</label>
-          <input type="number" name="item-amount" id="item-amount" required/>
-          <button type="submit" id="add-button">Tambah</button>
+          <section class="input-set">
+            <label for="item-name">Name</label>
+            <input type="text" name="item-name" id="item-name" required />
+          </section>
+          <section>
+            <label for="item-amount">Amount</label>
+            <input type="number" name="item-amount" id="item-amount" required />
+          </section>
+          <button type="submit" id="add-button">+</button>
         </form>
       </section>
       <section>
@@ -35,9 +40,7 @@
         </table>
       </section>
     </main>
-    <footer>
-        Revou-Dexa 2023
-    </footer>
+    <footer>Revou-Dexa 2024</footer>
     <script src="index.js"></script>
   </body>
 </html>
