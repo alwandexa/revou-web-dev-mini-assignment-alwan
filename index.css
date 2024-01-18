@@ -15,10 +15,10 @@ main {
 }
 
 section {
-    display: flex;
-    justify-content: center;
-    padding: 1em;
-  }  
+  display: flex;
+  justify-content: center;
+  padding: 1em;
+}
 
 header {
   font-family: "Pacifico", cursive;
@@ -31,4 +31,12 @@ footer {
   font-size: smaller;
   text-align: center;
   padding: 1em;
+}
+
+form {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  background-color: beige;
+  border-radius: 0.5em;
 }
