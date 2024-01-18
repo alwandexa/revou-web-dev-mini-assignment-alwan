@@ -15,7 +15,14 @@ main {
 }
 
 header {
-    font-family: "Pacifico", cursive;
-    font-weight: 400;
-    font-style: normal;
-  }
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+footer {
+  font-weight: lighter;
+  font-size: smaller;
+  text-align: center;
+  padding: 1em;
+}
