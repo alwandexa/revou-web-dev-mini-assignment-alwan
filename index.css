@@ -13,3 +13,9 @@ main {
   border-radius: 0.5em;
   padding: 1em;
 }
+
+header {
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
