@@ -68,3 +68,22 @@ h2 {
   width: 10em;
   margin: 0 auto;
 }
+
+table {
+  margin: 0 auto;
+  background-color: beige;
+  border-radius: 0.5em;
+}
+
+thead {
+  text-align: center;
+}
+
+th {
+  font-size: large;
+  padding: 0.5em;
+}
+
+td {
+  padding: 0.5em;
+}
