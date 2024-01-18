@@ -4,3 +4,12 @@ html {
   font-size: large;
 }
 
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url(bread_background_2.avif);
+  background-blend-mode: overlay;
+  border-radius: 0.5em;
+  padding: 1em;
+}
