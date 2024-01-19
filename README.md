@@ -1,6 +1,6 @@
 # revou-web-dev-mini-assignment-alwan
 
-# Description
+## Description
 This is implementation of **Introduction to Web Development** and **Frontend Development lesson** from RevoU 
 
 ## How To Run
